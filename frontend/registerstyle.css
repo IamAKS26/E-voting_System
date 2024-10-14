@@ -1,0 +1,193 @@
+body{
+    color: rgb(122, 122, 122);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding-top: 100px;
+    background: url('login.jpg') no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 600px;
+    height: 950px;
+    background-color:rgb(188, 122, 34) ;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 30px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.wrapper-h1{
+    font-size: 36;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+.label-1{
+    margin-left: 150px;
+    line-height: 50px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-name input{
+    position: relative;
+    margin-left: 150px;
+    line-height: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    text-align:justify;
+}
+
+.label-2{
+    margin-left: 150px;
+    line-height: 50px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-surname input{
+    position: relative;
+    margin-left: 150px;
+    line-height: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    text-align:justify;
+}
+
+.label-3{
+    margin-left: 150px;
+    line-height: 50px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-age input{
+    position: relative;
+    margin-left: 150px;
+    line-height: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    text-align:justify;
+}
+
+.label-4{
+    margin-left: 150px;
+    line-height: 50px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-gender input{
+    margin-left: 200px;
+    line-height: 10px;
+    width: 20px;
+    height: 20px;
+    text-align:justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.input-gender{
+    text-align:justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.label-5{
+    margin-left: 150px;
+    line-height: 50px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-id input{
+    position: relative;
+    margin-left: 150px;
+    line-height: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    text-align:justify;
+}
+
+.label-6{
+    margin-left: 150px;
+    line-height: 50px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-password input{
+    position: relative;
+    margin-left: 150px;
+    line-height: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    text-align:justify;
+}
+
+.label-7{
+    margin-left: 150px;
+    line-height: 50px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-conpassword input{
+    position: relative;
+    margin-left: 150px;
+    line-height: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    text-align:justify;
+}
+
+.remember{
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.btn-1{
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    padding-top: 40px;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    line-height: 10px;
+    text-align: center;
+    margin-left: 250px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0ec548;
+}
+
+.login-link{
+    padding-left: 230px;
+    padding-top: 15px;
+}
+
+.login-link a{
+    color: blue;
+}
