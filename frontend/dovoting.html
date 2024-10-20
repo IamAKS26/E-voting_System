@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dovoting.css">
+    <title>do voting</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading1">
+        <h1>Conform Your vote</h1>
+        </div>
+        <form id="votingForm">
+            <h2>Select Your Candidate:</h2>
+            <div class="candidate">
+                <input type="radio" id="candidate1" name="candidate" value="Candidate A" required>
+                <label for="candidate1">Candidate A</label>
+            </div>
+            <div class="candidate">
+                <input type="radio" id="candidate2" name="candidate" value="Candidate B" required>
+                <label for="candidate2">Candidate B</label>
+            </div>
+            <div class="candidate">
+                <input type="radio" id="candidate3" name="candidate" value="Candidate C" required>
+                <label for="candidate3">Candidate C</label>
+            </div>
+            <button type="submit">Vote</button>
+        </form>
+    </div>
+
+        <div id="result" class="result hidden"></div>
+    
+    <script src="dovotingscript.js"></script>
+</body>
+</html>
