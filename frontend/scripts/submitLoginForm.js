@@ -9,6 +9,7 @@ form?.addEventListener("submit", async (e) => {
       password: password.value,
     });
     console.log(data);
+    
   } catch (e) {
     alert("Incorrect username or password");
   }
